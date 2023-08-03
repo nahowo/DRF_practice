@@ -8,7 +8,7 @@ from .serializers import BookSerializer
 
 # Create your views here.
 @api_view(['GET'])
-def HelloAPI(request):
+def helloAPI(request):
     return Response("hello world!")
 
 class HelloAPI(APIView):
